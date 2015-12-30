@@ -1,0 +1,176 @@
+body{
+	background-color: grey;
+}
+#header {
+		background-color: black;
+        background-image: url(http://data.whicdn.com/images/122211864/large.jpg);
+        background-position: top center;
+      	background-repeat: no-repeat;
+        height: 424px;
+        width: 100%;
+        background-repeat: none;
+		font-family: Lucida;
+		font-style: italic;
+		color: white;
+		font-size: 30px;
+		line-height:250px;
+		text-align: center;
+		border-bottom: solid;
+		border-color: black;
+	}
+
+#nav {
+	margin-top: 2px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 60px;
+	color:white;
+	color:black;
+	font-family: Lucida;
+	font-size: 20px;
+	text-align:center;
+	line-height: 40px;
+}
+
+#nav ul {
+	width:110%;
+	position:fixed;
+	top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: left;
+   	margin-left: 130px;
+}
+
+li a {
+	font-family: Georgia, italic;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.column-content a:hover {
+	background-color: #111;
+	color: black;
+	
+}
+
+.column {
+	padding-left: 100px;
+	margin-top: 10px;
+	height:300px;
+    float: left;
+    width: 35%;
+  	background: grey;
+  
+}
+
+
+.column-left {
+	left:25%;
+	width:18%;
+	height: 1000px;
+	font-family: times;
+	color:black;
+	font-style: italic;
+	display:block;
+	text-align: justify;
+	margin:5px, 5px;
+
+}
+
+
+
+.column-right {
+	padding-top: 200px;
+	left:25%;
+	padding-right: 100px;
+	width:10%;
+	text-align:justify;
+}
+
+
+.colum-right li{
+	color: black;
+}
+.column-content {
+	left:30%;
+	display:inline-block;
+	width: 35%;
+
+}
+
+
+.content h1, h2 {
+	text-align:center;
+	font-family:tIMES;
+	font-style: italic;
+	color:white;
+}
+
+.content h3{
+	text-align: center;
+
+}
+.content p {
+	font-family: Times;
+	font-size: 18px;
+	color:black;
+	text-align: justify;
+	overflow: auto;
+}
+
+.content img {
+	height:300px;
+	width: 300px;
+	padding-left: 100px;
+}
+
+.content h4{
+	text-align: center;
+	font-family: times;
+	font-size: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+.footer1{
+	background-image:url (http://www.eaglemountaincapital.com/images/footer-black.png);
+	height: 100px;
+	width: 100%;
+	border-bottom:solid;
+
+}
+.footer2{
+	background-image:url(http://www.eaglemountaincapital.com/images/footer-black.png);
+	text-align: center;
+	border-top: solid;
+	text-align: center;
+	font-size: 10px;
+	line-height: 350px;
+	color:black;
+	height: 300px;
+	font-family: times, italic;
+	text-align: center;
+	color:white;
+	width:100%;
+}
+
+
+

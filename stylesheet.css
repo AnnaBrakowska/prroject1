@@ -1,0 +1,104 @@
+#header {
+	background-image: url(http://1.bp.blogspot.com/-gDiw0nub1Es/VQfl8YU-qNI/AAAAAAAAOtU/XUVMf4ix-JY/s1600/LOGOGLOWNEBLOGABez%2Bnazwy%2B1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 484px;
+    width: 100%;
+    background-repeat: none;
+	}
+    
+
+
+#navigation {
+	margin-top: 2px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 60px;
+	color:white;
+	color:black;
+	font-family: Lucida;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#navigation ul {
+	width:100%;
+	top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-top: solid;
+}
+
+
+
+#navigation li a {
+	font-family: Georgia, italic;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navigation li a:hover {
+    background-color:lavender;
+}
+
+#navigation li {
+    float: left;
+    margin-left: 250px;
+}
+
+
+.column-left {
+	float:left;
+	width:18%;
+	font-family: times;
+	color:black;
+	font-style: italic;
+	font-size: 20px;
+	display:block;
+	text-align: justify;
+	padding: 30px;
+
+}
+
+
+.column-right {
+	float:right;
+	padding-right: 100px;
+	width:60%;
+	text-align:justify;
+}
+
+.column-left p {
+	text-decoration: italic;
+	border-bottom: solid;
+	border-top: solid;
+}
+
+.column-right h3{
+	text-align:center;
+}
+
+
+.column-right img {
+	padding-left: 170px;
+}
+
+.footer {
+	padding-top: 10px;
+	height:100px;
+	border-top: solid;
+	background-color: black;
+	color:lavender;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}

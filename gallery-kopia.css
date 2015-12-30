@@ -1,0 +1,32 @@
+.pics {
+	float:left;
+	width:150px;
+	border:1px dotted ;
+	margin:0 15px 15px 0;
+	padding:5px;
+}
+
+#header {
+    background-image: url(https://c2.staticflickr.com/4/3834/12576239833_fa370b32a9_b.jpg);
+    background-repeat:y;
+    width:100%;
+    border:solid;
+	font-size: 30px;
+	height:400px;
+	margin-bottom:20px;
+
+}		
+
+ 
+.footer {
+	background-color: black;
+	margin-top: 20px;
+	text-align: center;
+	color:white;
+	height: 20px;
+	width:100%;
+}	
+
+.clear {
+	clear:both;
+}

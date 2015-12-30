@@ -1,0 +1,171 @@
+body{
+	background-color: grey;
+	padding-left:40px;
+	padding-right:40px;
+}
+#header {
+		background-color: black;
+        background-image: url(http://data.whicdn.com/images/122211864/large.jpg);
+        background-position: top center;
+      	background-repeat: no-repeat;
+        height: 484px;
+        width: 1350px;
+		font-family: Lucida;
+		font-style: italic;
+		color: white;
+		font-size: 30px;
+		line-height:250px;
+		text-align: center;
+	
+	}
+
+.content img{
+	width: 550px;
+	height:400px;
+	position:center;
+}
+
+
+#nav {
+	margin-top: 2px;
+	margin-bottom: 0px;
+	height: 60px;
+	color:white;
+	color:black;
+	font-family: Lucida;
+	font-size: 20px;
+	text-align:center;
+	line-height: 40px;
+	padding-right: 30px;
+	background-position: top center;
+}
+
+#nav ul {
+	width:1350px;
+	position:fixed;
+	top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: left;
+    margin-left: 70px;
+  
+}
+
+#nav img {
+	height:40px;
+	width:40px;
+}
+
+li a {
+	font-family: Georgia, italic;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+.column {
+	padding-left: 100px;
+	margin-top: 10px;
+	height:1800px;
+    float: left;
+    width: 35%;
+  	background: grey;
+  
+}
+
+
+.column-left {
+	left:25%;
+	width:18%;
+	height: 1000px;
+	font-family: times;
+	color:black;
+	font-style: italic;
+	display:block;
+	text-align: justify;
+	margin:5px, 5px;
+
+}
+
+
+.column-left img{
+	width:400px;
+	height:400px;
+}
+
+
+.column-right {
+	padding-top: 200px;
+	left:25%;
+	padding-right: 100px;
+	width:10%;
+	text-align:justify;
+}
+
+
+
+.column-right img {
+    height:600px;
+    width:300px;
+    padding-bottom: 20px;
+}
+
+.column-content {
+	left:30%;
+	display:inline-block;
+	width: 35%;
+}
+
+
+.content h1, h2 {
+	text-align:center;
+	font-family:tIMES;
+	font-style: italic;
+	color:white;
+}
+
+.content h3, li{
+	text-align: center;
+
+}
+.content p {
+	font-family: Times;
+	font-size: 18px;
+	color:black;
+	text-align: justify;
+	overflow: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.footer1 {
+	background-image:url(http://www.eaglemountaincapital.com/images/footer-black.png);
+	text-align: center;
+	border-top: solid;
+	font-size: 10px;
+	line-height: 400px;
+	color:black;
+	height: 300px;
+	font-family: times, italic;
+	color:white;
+	width:100%;
+}
+
+
